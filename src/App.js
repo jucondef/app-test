@@ -6,6 +6,7 @@ import './App.css';
 // import TaskComponent from './components/container/task_list';
 // import UserComponent from './components/container/user_list';
 // import Ejm1 from './hooks/ejm1';
+ import Ejm2 from './hooks/ejm2';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           {/* {new Date().toLocaleTimeString()} */}
           {/* <UserComponent></UserComponent> */}
           {/* <Ejm1></Ejm1> */}
+          <Ejm2></Ejm2>
       </header>
     </div>
   );

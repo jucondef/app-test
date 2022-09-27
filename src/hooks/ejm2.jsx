@@ -23,7 +23,13 @@ const Ejm2 = () => {
     
     return (
         <div>
-            
+            <h2>ContadorUno: {contadorUno}</h2>
+            <h2>ContadorDos: {contadorDos}</h2>
+            <h4 ref={miRef}> Ejemplo de elemento referenciado</h4>
+            <div>
+                <button onClick={increment1}>Incrementar 1</button>
+                <button onClick={increment2}>Incrementar 2</button>
+            </div>
         </div>
     );
 }
