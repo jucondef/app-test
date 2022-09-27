@@ -15,12 +15,18 @@ const Ejm2 = () => {
         setContadorDos(contadorDos + 1);
     }
 
+    // useEffect(() => {
+    //     console.log('Cambio en el estado del componente');
+    //     console.log('Mostrando referencia a elemento del DOM:');
+    //     console.log(miRef);
+    // }, [contadorUno])
+    
     useEffect(() => {
-        console.log('Cambio en el estado del componente');
+        console.log('Cambio en el estado del componente contador 1 / contador 2');
         console.log('Mostrando referencia a elemento del DOM:');
         console.log(miRef);
-    })
-    
+    }, [contadorUno, contadorDos])
+
     return (
         <div>
             <h2>ContadorUno: {contadorUno}</h2>
