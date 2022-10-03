@@ -6,7 +6,9 @@ import './App.css';
 // import TaskComponent from './components/container/task_list';
 // import UserComponent from './components/container/user_list';
 // import Ejm1 from './hooks/ejm1';
- import Ejm2 from './hooks/ejm2';
+//  import Ejm2 from './hooks/ejm2';
+// import ComponentWithContext from './hooks/ejm3';
+import Ejm4 from './hooks/ejm4';
 
 function App() {
   return (
@@ -17,7 +19,13 @@ function App() {
           {/* {new Date().toLocaleTimeString()} */}
           {/* <UserComponent></UserComponent> */}
           {/* <Ejm1></Ejm1> */}
-          <Ejm2></Ejm2>
+          {/* <Ejm2></Ejm2> */}
+          {/* <ComponentWithContext></ComponentWithContext> */}
+          <Ejm4 name="pepe">
+            <h3>
+              Contenido del props.children
+            </h3>
+          </Ejm4>
       </header>
     </div>
   );
